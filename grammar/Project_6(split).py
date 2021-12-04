@@ -1,25 +1,16 @@
-#split = 자르기
-#a = 123
-#temp = a.split('2')
-#a = [1,3]
-#a, b = map(int, input().split(' '))
+# split = 자르기(나누기)
+# a = 123
+# a = a.split('2')
+# a = [1,3]
+# 2를 기준으로 잘라 변경됨(변수 > 리스트)
 #
-#for i in range(len(b)):
+# a, b = map(int, input().split(' '))
+# 2 3 을 각각 a b에 나눠 입력
+#
+# for i in range(len(b)):
 #   print(b[i], end=' ')
-
-
-3 5
-
-
-
-
-
-
-
-
-
-
-
+# 123456을 1 2 3 4 5 6으로 나눠 출력
+# 리스트, 변수 둘다 가능
 
 
 
@@ -38,16 +29,6 @@
 #        ma = b[i]
 #print(mi,ma)
 
-
-
-
-
-
-
-
-
-
-
 #a = 8
 #b = [1, 5, 8, 9, 10, 15, 23, 2]
 #e = 0
@@ -60,12 +41,6 @@
 #        if c == 0:
 #            e = e + 1
 #print(e)
-
-
-
-
-
-
 
 #a = int(input())
 #b = list(map(int, input().split(' ')))
