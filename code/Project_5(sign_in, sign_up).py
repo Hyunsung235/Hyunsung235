@@ -70,4 +70,4 @@
 #
 #print('id : ', id_list)
 #print('pwd : ', pwd_list)
-#
+asdf = asdf
