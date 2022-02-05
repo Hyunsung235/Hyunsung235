@@ -16,7 +16,7 @@ game
 ----
 - racecar
 - tic_tac_toe
-- flappy_bird(이현근, 은경현)
+- flappy_bird
 
 
 grammar
