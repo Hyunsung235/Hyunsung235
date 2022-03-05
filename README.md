@@ -44,6 +44,7 @@ sign
 --- 
 - [tjfanswhtk_1.zip](https://github.com/ahffk333/HS_Project_python/files/8189578/tjfanswhtk_1.zip)
 - ![image](https://user-images.githubusercontent.com/88918799/156861923-722db3ff-ad1c-46be-8298-ea7fa974df4e.png)
-설명 : 리그오브레전드의 여러가지 설정과 주 캐릭터, 스탯 등을 
-[requirements.txt](https://github.com/ahffk333/HS_Project_python/files/8189613/requirements.txt)
-[실행법.txt](https://github.com/ahffk333/HS_Project_python/files/8189614/default.txt)
+설명 : 리그오브레전드의 여러가지 설정과 주 캐릭터, 스탯 등을 조사합니다
+
+실행 환경 : Python 3.9 streamlit 1.5.1
+실행법 : 터미널 > streamlit run tjfanswhtk.py , xhdrPsorl < 수정 필요
