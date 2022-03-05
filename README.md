@@ -10,6 +10,8 @@ algorithm
 - Project_3(biggest number, smallest number)
 - Project_4(programmers)
 - Project_5(sort)
+- Project_6(greedy)
+- Project_7(tjfanswhtk)
 
 
 game
@@ -40,5 +42,5 @@ sign
 
 설문조사
 --- 
--[tjfanswhtk_1.zip](https://github.com/ahffk333/HS_Project_python/files/8189578/tjfanswhtk_1.zip)
--![image](https://user-images.githubusercontent.com/88918799/156861923-722db3ff-ad1c-46be-8298-ea7fa974df4e.png)
+- [tjfanswhtk_1.zip](https://github.com/ahffk333/HS_Project_python/files/8189578/tjfanswhtk_1.zip)
+- ![image](https://user-images.githubusercontent.com/88918799/156861923-722db3ff-ad1c-46be-8298-ea7fa974df4e.png)
