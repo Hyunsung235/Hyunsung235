@@ -35,16 +35,16 @@ p1_tsy = 5000
 p2_tsy = 5000
 p1_tsa = 1
 p2_tsa = 1
-p1_tsi = pygame.transform.scale(pygame.image.load('ts.png'), (ts_size[0], ts_size[1]))
-p2_tsi = pygame.transform.scale(pygame.image.load('ts.png'), (ts_size[0], ts_size[1]))
-rb = pygame.transform.scale(pygame.image.load('rb.png'), (b_size[0], b_size[1]))
-tsb = pygame.transform.scale(pygame.image.load('tsb.jpg'), (b_size[0] - 25, b_size[1] - 25))
+p1_tsi = pygame.transform.scale(pygame.image.load('images/ts.png'), (ts_size[0], ts_size[1]))
+p2_tsi = pygame.transform.scale(pygame.image.load('images/ts.png'), (ts_size[0], ts_size[1]))
+rb = pygame.transform.scale(pygame.image.load('images/rb.png'), (b_size[0], b_size[1]))
+tsb = pygame.transform.scale(pygame.image.load('images/tsb.jpg'), (b_size[0] - 25, b_size[1] - 25))
 
-background = pygame.image.load('background.png')
-hpr = pygame.image.load('redgauge.png')
-hpb = pygame.image.load('blackgauge.png')
-p1oi = pygame.image.load('p1.png')
-p2oi = pygame.image.load('p2.png')
+background = pygame.image.load('images/background.png')
+hpr = pygame.image.load('images/redgauge.png')
+hpb = pygame.image.load('images/blackgauge.png')
+p1oi = pygame.image.load('images/p1.png')
+p2oi = pygame.image.load('images/p2.png')
 p1i = None
 p2i = None
 
@@ -80,12 +80,12 @@ screen = pygame.display.set_mode((1920, 1080))
 pygame.display.set_caption("I VS I")
 
 # 소리 설정
-pygame.mixer.music.load('bgm.mp3')
-p1a = pygame.mixer.Sound('p1a.mp3')
-p2a = pygame.mixer.Sound('p2a.mp3')
-gs = pygame.mixer.Sound('gs.mp3')
-ds = pygame.mixer.Sound('ds.mp3')
-tss = pygame.mixer.Sound('tss.mp3')
+pygame.mixer.music.load('sounds/bgm.mp3')
+p1a = pygame.mixer.Sound('sounds/p1a.mp3')
+p2a = pygame.mixer.Sound('sounds/p2a.mp3')
+gs = pygame.mixer.Sound('sounds/gs.mp3')
+ds = pygame.mixer.Sound('sounds/ds.mp3')
+tss = pygame.mixer.Sound('sounds/tss.mp3')
 p1a.set_volume(sv)
 p2a.set_volume(sv)
 gs.set_volume(sv * 0.5)
@@ -415,8 +415,8 @@ def judgement():
 def main():
 
     for i in range(1, 4):
-        screen.blit(pygame.transform.scale(pygame.image.load(f'{str(4 - i) * 3}.png'), (1920, 1080)), (0, 0))
-        screen.blit(pygame.transform.scale(pygame.image.load(f'444.png'), (800, 300)), (600, 0))
+        screen.blit(pygame.transform.scale(pygame.image.load(f'images/{str(4 - i) * 3}.png'), (1920, 1080)), (0, 0))
+        screen.blit(pygame.transform.scale(pygame.image.load('images/444.png'), (800, 300)), (600, 0))
         pygame.display.flip()
         time.sleep(1.5)
 
