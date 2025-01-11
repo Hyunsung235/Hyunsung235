@@ -1,49 +1,46 @@
-파이썬을 공부한 내용입니다
-=========================
+프로그래밍 활동입니다
+=====================
 
 
 
-algorithm
+Study
+=====
+ 프로그래밍 언어
+ ---------------
+   - Python
+   - C
+   - Java
+
+ 알고리즘
+ --------
+
+
+Project
+=======
+ 고등학교 당시 프로젝트
+ ---------------------
+  - 생태계 진화 시뮬레이션
+  - 국어 음운변동
+  - 번역기 API 사용
+  - 안드로이드 알람
+  - 국내 통계자료 수집
+  - 스트리트파이터
+  - 랜덤한 구문 생성기
+ 
+ 중학교 당시 프로젝트
+ ---------------------
+  - 아두이노 점프 게임
+  - 디스코드 타자연습 봇
+  - 플래피 버드
+  - 카 레이서
+  - 틱 택 토
+
+
+
+Problem
+========
+ 백준
 ---------
-- Project_1(Prime)
-- Project_2(369)
-- Project_3(biggest number, smallest number)
-- Project_4(programmers)
-- Project_5(sort)
-- Project_6(greedy)
-- Project_7(tjfanswhtk)
-- Project_8(fibonacci)
-- Project_9(push_pop)
-- Project_10(deque)
-- project_11~13(deque maze)
 
-
-game
-----
-- racecar
-- tic_tac_toe
-- flappy_bird
-
-
-grammar
--------
-- Project_1(type, loop)
-- Project_2(int, list)
-- Project_3(function)
-- Project_4(class)
-- Project_5(class, dict)
-- Project_6(split)
-- Project_7(class_link)
-
-sign
-----
-- Project_1(sign_up)
-- Project_2(sign_up)
-
-
-문제
---
-
-설문조사
---- 
-
+프로그래머스
+---------
